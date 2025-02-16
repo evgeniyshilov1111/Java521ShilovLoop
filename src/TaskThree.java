@@ -10,13 +10,13 @@ public class TaskThree {
         for (int i = 1; i <= number; i++) {
 
             for (int w = 0; w < number - i; w++) {
-                System.out.print("-");
+                System.out.print(" ");
             }
             for (int w = 0; w < 1 + count; w++) {
                 System.out.print("*");
             }
             for (int w = 0; w < number - i; w++) {
-                    System.out.print("-");
+                    System.out.print(" ");
             }
             count = count + 2;
             System.out.println();
