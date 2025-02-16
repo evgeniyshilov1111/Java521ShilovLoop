@@ -6,7 +6,7 @@ public class TaskOne {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" Введите год: ");
         int number = scanner.nextInt();
-        if (number % 4 == 0) {
+        if (number % 4 == 0 && number % 100 != 0 || number % 400 == 0) {
             System.out.println("год високосный");
 
         } else {
